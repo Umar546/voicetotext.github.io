@@ -100,7 +100,10 @@ h1 i {
     background-color: #2ecc71 !important;
     animation: none !important;
 }
-
+#textOutput {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
 /* Responsive design */
 @media (max-width: 600px) {
     .voice-controls {
